@@ -1,0 +1,17 @@
+{
+    "files.associations": {
+        "COCONUT.C": "cpp",
+        "CHFHEIST.C": "cpp",
+        "SOCKS1.C": "cpp",
+        ".C": "cpp",
+        "BOLT.C": "cpp",
+        "Sscript.C": "cpp",
+        "ostream": "cpp",
+        "SOLBLTY.C": "cpp",
+        "Solubilty.C": "cpp",
+        "NOTIME.C": "cpp",
+        "iostream": "cpp",
+        "FLOW002.C": "cpp",
+        "iomanip": "cpp"
+    }
+}
