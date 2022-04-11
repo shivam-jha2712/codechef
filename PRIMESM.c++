@@ -3,7 +3,7 @@
 #include <iostream>
 using namespace std;
 
-void solve()
+void solved()
 {
     long long a, b;
     cin >> a >> b;
@@ -28,7 +28,7 @@ int main() // MAIN DEFINATION
     scanf("%d", &t);
     while (t--)
     {
-        solve();
+        solved();
     }
 
     return 0;
