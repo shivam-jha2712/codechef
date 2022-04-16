@@ -12,6 +12,7 @@
         "NOTIME.C": "cpp",
         "iostream": "cpp",
         "FLOW002.C": "cpp",
-        "iomanip": "cpp"
+        "iomanip": "cpp",
+        "istream": "cpp"
     }
 }
