@@ -24,11 +24,23 @@ bool checkSorted(int n, int arr[])
 // Driver Program to test above function
 int main()
 {
-    int arr[] = {1, 5, 3, 4, 2};
-    int n = sizeof(arr) / sizeof(arr[0]);
-    if (checkSorted(n, arr))
-        cout << "Yes";
-    else
-        cout << "No";
+    int t;
+    cin >> t;
+    while (t--)
+    {
+        int n;
+        cin >> n;
+        int arr[n];
+        // int n = sizeof(arr) / sizeof(arr[0]);
+        for (int i = 0; i < n; i++)
+        {
+            cin >> arr[i];
+        }
+        if (checkSorted(n, arr))
+            cout << "Yes\n";
+        else
+            cout << "No\n";
+    }
+
     return 0;
 }
