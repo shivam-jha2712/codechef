@@ -9,15 +9,15 @@ int main() // MAIN DEFINATION
     scanf("%d", &t);
     while (t--)
     {
-        int a, b, c;
-        scanf("%d %d %d", &a, &b, &c);
+        int a, b, d;
+        scanf("%d %d %d", &a, &b, &d);
         if (a > b)
         {
-            cout << min(a - b, c - a + b);
+            cout << min(a - b, d - a + b);
         }
         else
         {
-            cout << min(b - a, a + c - b);
+            cout << min(b - a, a + d - b);
         }
         printf("\n");
     }
